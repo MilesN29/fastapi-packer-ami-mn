@@ -8,7 +8,7 @@ on:
         required: true
         default: 'milesn29/fastapi-simple:latest'
       environment:
-        description: 'Environment (dev, staging, prod)'
+        description: 'Environment (dev, qa, prod)'
         required: false
         default: 'dev'
 

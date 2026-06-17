@@ -24,7 +24,7 @@ variable "docker_image" {
 }
 
 variable "environment" {
-  description = "Environment name (dev, staging, prod)"
+  description = "Environment name (dev, qa, prod)"
   type        = string
   default     = "dev"
 }
